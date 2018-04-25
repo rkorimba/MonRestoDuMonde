@@ -13,6 +13,8 @@
 		D028EAE22090B6A800E34687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D028EAE02090B6A800E34687 /* LaunchScreen.storyboard */; };
 		D028EAEE2090B99000E34687 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAED2090B99000E34687 /* MenuController.swift */; };
 		D028EAF02090B9E000E34687 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAEF2090B9E000E34687 /* ALaCarteController.swift */; };
+		D028EAF22090BB8000E34687 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAF12090BB8000E34687 /* MonTabBar.swift */; };
+		D028EAF52090BBD000E34687 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAF42090BBD000E34687 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D028EAE32090B6A800E34687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D028EAED2090B99000E34687 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		D028EAEF2090B9E000E34687 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
+		D028EAF12090BB8000E34687 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
+		D028EAF42090BBD000E34687 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D028EAD62090B6A800E34687 /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				D028EAF32090BBB000E34687 /* Utilitaire */,
 				D028EAEA2090B91200E34687 /* Modèle */,
 				D028EAEB2090B92900E34687 /* Vue */,
 				D028EAEC2090B92F00E34687 /* Controller */,
@@ -88,8 +93,17 @@
 			children = (
 				D028EAED2090B99000E34687 /* MenuController.swift */,
 				D028EAEF2090B9E000E34687 /* ALaCarteController.swift */,
+				D028EAF12090BB8000E34687 /* MonTabBar.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D028EAF32090BBB000E34687 /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				D028EAF42090BBD000E34687 /* Constantes.swift */,
+			);
+			path = Utilitaire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D028EAF52090BBD000E34687 /* Constantes.swift in Sources */,
+				D028EAF22090BB8000E34687 /* MonTabBar.swift in Sources */,
 				D028EAEE2090B99000E34687 /* MenuController.swift in Sources */,
 				D028EAD82090B6A800E34687 /* AppDelegate.swift in Sources */,
 				D028EAF02090B9E000E34687 /* ALaCarteController.swift in Sources */,
