@@ -19,6 +19,8 @@
 		D028EAF92090C0F700E34687 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAF82090C0F700E34687 /* MenuCell.swift */; };
 		D028EAFB2090C34800E34687 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAFA2090C34800E34687 /* Plat.swift */; };
 		D028EAFD2090C37B00E34687 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAFC2090C37B00E34687 /* Enums.swift */; };
+		D028EAFF2090C4F100E34687 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EAFE2090C4F100E34687 /* Menu.swift */; };
+		D028EB012090C5BD00E34687 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB002090C5BD00E34687 /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		D028EAF82090C0F700E34687 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		D028EAFA2090C34800E34687 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		D028EAFC2090C37B00E34687 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D028EAFE2090C4F100E34687 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D028EB002090C5BD00E34687 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				D028EAFA2090C34800E34687 /* Plat.swift */,
 				D028EAFC2090C37B00E34687 /* Enums.swift */,
+				D028EAFE2090C4F100E34687 /* Menu.swift */,
+				D028EB002090C5BD00E34687 /* LesPlats.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -193,7 +199,9 @@
 				D028EAF52090BBD000E34687 /* Constantes.swift in Sources */,
 				D028EAF22090BB8000E34687 /* MonTabBar.swift in Sources */,
 				D028EAF72090BD7000E34687 /* MonNav.swift in Sources */,
+				D028EAFF2090C4F100E34687 /* Menu.swift in Sources */,
 				D028EAEE2090B99000E34687 /* MenuController.swift in Sources */,
+				D028EB012090C5BD00E34687 /* LesPlats.swift in Sources */,
 				D028EAD82090B6A800E34687 /* AppDelegate.swift in Sources */,
 				D028EAFB2090C34800E34687 /* Plat.swift in Sources */,
 				D028EAFD2090C37B00E34687 /* Enums.swift in Sources */,
