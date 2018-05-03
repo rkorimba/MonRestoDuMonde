@@ -24,6 +24,7 @@
 		D028EB03209B0CE600E34687 /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB02209B0CE600E34687 /* Degrade.swift */; };
 		D028EB05209B0FDD00E34687 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB04209B0FDD00E34687 /* PlatCell.swift */; };
 		D028EB07209B11C800E34687 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB06209B11C800E34687 /* ALaCarte.swift */; };
+		D028EB09209B1C8A00E34687 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028EB08209B1C8A00E34687 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		D028EB02209B0CE600E34687 /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
 		D028EB04209B0FDD00E34687 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		D028EB06209B11C800E34687 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
+		D028EB08209B1C8A00E34687 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				D028EAEF2090B9E000E34687 /* ALaCarteController.swift */,
 				D028EAF12090BB8000E34687 /* MonTabBar.swift */,
 				D028EAF62090BD7000E34687 /* MonNav.swift */,
+				D028EB08209B1C8A00E34687 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				D028EAD82090B6A800E34687 /* AppDelegate.swift in Sources */,
 				D028EAFB2090C34800E34687 /* Plat.swift in Sources */,
 				D028EAFD2090C37B00E34687 /* Enums.swift in Sources */,
+				D028EB09209B1C8A00E34687 /* DetailController.swift in Sources */,
 				D028EAF02090B9E000E34687 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

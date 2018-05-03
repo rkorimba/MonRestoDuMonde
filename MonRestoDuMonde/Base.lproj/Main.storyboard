@@ -41,15 +41,16 @@
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgS-FF-qDG">
                                                             <rect key="frame" x="8" y="42" width="255" height="50"/>
+                                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="50" id="Qv4-Nd-e33"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="BuS-mh-pne"/>
                                                         <constraint firstItem="KgS-FF-qDG" firstAttribute="leading" secondItem="8AH-zs-PHu" secondAttribute="leading" constant="8" id="FZG-GE-zwc"/>
@@ -94,11 +95,41 @@
                     <navigationItem key="navigationItem" id="MSw-8z-g3B"/>
                     <connections>
                         <outlet property="collectionView" destination="Dq9-Tl-nMS" id="raB-LD-YuX"/>
+                        <segue destination="FWy-Zu-1cZ" kind="show" identifier="VersDetail" id="IN3-WZ-2nb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meG-cT-LyI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1188" y="-492.50374812593708"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="dRA-vD-0nl">
+            <objects>
+                <viewController id="FWy-Zu-1cZ" customClass="DetailController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ilg-Tl-52L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nO4-Jm-qCh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nO4-Jm-qCh" firstAttribute="trailing" secondItem="LjL-3n-JN5" secondAttribute="trailing" id="2ml-zx-BpE"/>
+                            <constraint firstAttribute="bottom" secondItem="nO4-Jm-qCh" secondAttribute="bottom" id="KRB-X2-NTZ"/>
+                            <constraint firstItem="nO4-Jm-qCh" firstAttribute="leading" secondItem="LjL-3n-JN5" secondAttribute="leading" id="iqq-dR-VAS"/>
+                            <constraint firstItem="nO4-Jm-qCh" firstAttribute="top" secondItem="LjL-3n-JN5" secondAttribute="top" id="jbi-ZY-TFE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LjL-3n-JN5"/>
+                    </view>
+                    <connections>
+                        <outlet property="scroll" destination="nO4-Jm-qCh" id="qfj-M0-T3V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YTA-HD-cJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1872.8" y="-493.40329835082463"/>
         </scene>
         <!--Mon Tab Bar-->
         <scene sceneID="DVZ-4y-RCE">
