@@ -13,7 +13,7 @@ class PlatCell: UITableViewCell {
     @IBOutlet weak var imageDuPlat: UIImageView!
     @IBOutlet weak var descDuPlat: UILabel!
     
-    var plat: Plat
+    var plat: Plat!
     
     func miseEnPlace(plat: Plat) {
         self.plat = plat
@@ -28,16 +28,4 @@ class PlatCell: UITableViewCell {
         descDuPlat.font = FONT_DE_BASE
         descDuPlat.textColor = GRIS_TRES_CLAIR
     }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
